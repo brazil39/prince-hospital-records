@@ -1,6 +1,6 @@
-MAFFEW HOSPITAL DATABASE
+                                        MAFFEW HOSPITAL DATABASE
 
-EXCEL TABLES OF THE UNCLEAN DATA SET AFTER CLEANING BELOW
+ THE UNCLEAN DATA SET AFTER CLEANING WITH MICROSOFT EXCEL
 
 patients id full_name gender age state phone
 
@@ -14,7 +14,8 @@ appointment_id patient_id doctor_id visit_date diagnosis fee
 
 1001 1 104 1/10/2025 Malaria 15000 1002 2 101 1/11/2025 Hypertension 25000 1003 3 103 1/12/2025 Child Fever 12000 1004 4 105 1/13/2025 Fracture 30000 1005 5 104 1/14/2025 Typhoid 18000 1006 6 102 1/15/2025 Migraine 20000 1007 7 101 1/16/2025 Heart Check 27000 1008 8 104 1/17/2025 Infection 16000 1009 9 103 1/18/2025 Flu 11000 1010 10 105 1/19/2025 Back Pain 22000
 
-SQL QUERIES FOR DATA DIGGING
+>>>>>>>>SQL QUERIES FOR DATA DIGGING
+
 SELECT COUNT(*) AS total_patients FROM patients; 6️⃣ Average patient age SELECT AVG(age) AS avg_age FROM patients;
 
 7️⃣ Total appointment fees collected
@@ -72,3 +73,5 @@ DELETE FROM appointments WHERE appointment_id = 1010;
 2️⃣0️⃣ Revenue by specialty
 
 SELECT d.specialty, SUM(a.fee) AS revenue FROM appointments a JOIN doctors d ON a.doctor_id = d.doctor_id GROUP BY d.specialty ORDER BY revenue DESC;
+
+>>>>>>>>>>LINK TO POWER BI DASHBOARD FOR PRINCE HOSPITAL
