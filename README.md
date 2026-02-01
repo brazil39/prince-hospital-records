@@ -1,6 +1,6 @@
                                         MAFFEW HOSPITAL DATABASE
 
- THE UNCLEAN DATA SET AFTER CLEANING WITH MICROSOFT EXCEL
+>>>>>>>>>>>THE UNCLEAN DATA SET AFTER CLEANING WITH MICROSOFT EXCEL
 
 patients id full_name gender age state phone
 
